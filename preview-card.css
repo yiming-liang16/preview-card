@@ -1,0 +1,131 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: hsl(217, 54%, 11%);
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+
+}
+
+.container {
+    width: 350px;
+    height: 620px;
+    border: 1px solid (217, 54%, 11%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container .creatorimg {
+    width: 10px;
+    height: 10px;
+}
+
+.equ {
+    font-family: 'outfit';
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+    padding-right: 160px;
+    margin-bottom: 25px;
+
+}
+
+.text {
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 17px;
+    color: hsla(215, 51%, 70%,0.8);
+    padding-right: 30px;
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.first {
+    display: flex;
+    padding-right: 120px;
+}
+
+.container .icon1 {
+    width: 10px;
+    height: 18px;
+}
+
+.eth {
+    font-family: 'outfit';
+    color:hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+.last {
+    display: flex;
+}
+
+.container .icon2 {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.day {
+    font-family: 'outfit';
+    font-size: 15px;
+    color:hsla(215, 51%, 70%,0.8);
+    padding-left: 8px;
+}
+
+.creator {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.container .creatorimg {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.creation {
+    font-family: 'outfit';
+    font-size: 17px;
+    color:hsla(215, 51%, 70%,0.8);
+    padding-right: 5px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.creation2 {
+    font-family: 'outfit';
+    font-size: 17px;
+    color:white;
+    padding-top: 10px;
+
+}
